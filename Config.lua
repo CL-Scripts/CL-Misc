@@ -18,7 +18,7 @@ CL.PauseMenu = true -- true or false
 -- Pausemenu Title --
 CL.PauseMenuTitle = '~r~CL ~w~Scripts | discord.gg/~r~cl-scripts~w~ | ~r~'.. GetPlayerName(PlayerId())..'~w~ | ~r~ID: '..GetPlayerServerId(NetworkGetEntityOwner(PlayerPedId()))..'~w~ | ~w~Hosted By ~r~Tube~w~-Hosting'
 
--- Use NoNPC -- WIP 
+-- Use NoNPC -- 
 CL.NoNPC = false -- true or false
 
 -- Use Timed Announce --
