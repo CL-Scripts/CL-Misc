@@ -76,3 +76,6 @@ CL.InfStamina = true -- true or false
 
 -- Use Join Transition--
 CL.JoinTransition = false -- true or false
+
+-- Use Import Autonames--
+CL.AutoNames = true -- true or false
