@@ -360,3 +360,12 @@ CreateThread(function()
     end
 end)
 end
+
+function AddTextEntry(key, value)
+    Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), key, value)
+end
+
+Citizen.CreateThread(function()
+    AddTextEntry("rs7", "Audi RS7")
+    AddTextEntry("benze55", "Mercedes Benz S55")
+end)
