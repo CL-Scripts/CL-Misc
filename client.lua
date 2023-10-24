@@ -28,8 +28,10 @@ local player = PlayerId()
 
 SetPoliceIgnorePlayer(player, true)
 SetDispatchCopsForPlayer(player, false)
-SetMaxWantedLevel(0)
-
+SetMaxWantedLevel(0)		
+SetPlayerWantedLevel(PlayerId(), 0, false)
+SetPlayerWantedLevelNow(PlayerId(), false)
+SetPlayerWantedLevelNoDrop(PlayerId(), 0, false)
 SetPedPopulationBudget(0)
 SetVehiclePopulationBudget(0)
 SetNumberOfParkedVehicles(0)
